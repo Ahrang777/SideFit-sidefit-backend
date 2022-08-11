@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 @Repository
 public class EmitterRepositoryImpl implements EmitterRepository {
 
-    private final Map<String, SseEmitter> emitters = new ConcurrentHashMap<>();
+    /*private final Map<String, SseEmitter> emitters = new ConcurrentHashMap<>();
     private final Map<String, Object> events = new ConcurrentHashMap<>();
 
     @Override
@@ -57,5 +57,5 @@ public class EmitterRepositoryImpl implements EmitterRepository {
                 .filter(key -> key.startsWith(userId))
                 .findFirst()
                 .ifPresent(events::remove);
-    }
+    }*/
 }

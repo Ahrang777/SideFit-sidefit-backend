@@ -2,7 +2,7 @@ package com.project.sidefit.domain.service;
 
 import com.project.sidefit.domain.entity.Notification;
 import com.project.sidefit.domain.entity.User;
-import com.project.sidefit.domain.repository.UserRepository;
+//import com.project.sidefit.domain.repository.UserRepository;
 import com.project.sidefit.domain.repository.notification.EmitterRepository;
 import com.project.sidefit.domain.repository.notification.NotificationRepository;
 import lombok.RequiredArgsConstructor;
@@ -24,7 +24,7 @@ import static com.project.sidefit.api.dto.NotificationDto.*;
 @RequiredArgsConstructor
 public class NotificationService {
 
-    private final NotificationRepository notificationRepository;
+    /*private final NotificationRepository notificationRepository;
     private final EmitterRepository emitterRepository;
     private final UserRepository userRepository;
 
@@ -102,5 +102,5 @@ public class NotificationService {
             emitterRepository.deleteById(id);
             log.info("connection error!");
         }
-    }
+    }*/
 }

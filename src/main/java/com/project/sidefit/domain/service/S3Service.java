@@ -1,9 +1,9 @@
 package com.project.sidefit.domain.service;
 
-import com.amazonaws.AmazonServiceException;
+/*import com.amazonaws.AmazonServiceException;
 import com.amazonaws.SdkClientException;
 import com.amazonaws.services.s3.AmazonS3;
-import com.amazonaws.services.s3.model.*;
+import com.amazonaws.services.s3.model.*;*/
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -16,7 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class S3Service {
 
-    @Value("${cloud.aws.s3.bucket}")
+    /*@Value("${cloud.aws.s3.bucket}")
     private String bucket;
     private final AmazonS3 amazonS3;
 
@@ -56,5 +56,5 @@ public class S3Service {
             System.out.println("object = " + object.toString());
         }
         return amazonS3.getUrl(bucket, fileName).toString();
-    }
+    }*/
 }

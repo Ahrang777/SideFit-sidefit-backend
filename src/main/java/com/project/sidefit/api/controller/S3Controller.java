@@ -17,7 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class S3Controller {
 
-    private final S3Service s3Service;
+    /*private final S3Service s3Service;
     private final FileService fileService;
 
     @GetMapping("/s3/upload")
@@ -40,5 +40,5 @@ public class S3Controller {
         model.addAttribute("fileList", fileList);
 
         return "s3/list";
-    }
+    }*/
 }

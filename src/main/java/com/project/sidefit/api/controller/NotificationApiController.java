@@ -19,7 +19,7 @@ import static com.project.sidefit.api.dto.NotificationDto.*;
 @RequiredArgsConstructor
 public class NotificationApiController {
 
-    private final NotificationRepository notificationRepository;
+    /*private final NotificationRepository notificationRepository;
     private final NotificationService notificationService;
     private final JwtProvider jwtProvider;
 
@@ -42,5 +42,5 @@ public class NotificationApiController {
     @GetMapping("/notification/list")
     public List<NotificationQueryDto> getNotifications(@RequestParam String receiverId) {
         return notificationRepository.findNotificationsWithReceiverId(Long.valueOf(receiverId));
-    }
+    }*/
 }

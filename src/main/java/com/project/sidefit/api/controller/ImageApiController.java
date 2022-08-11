@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class ImageApiController {
 
-    private final FileService fileService;
+    /*private final FileService fileService;
     private final S3Service s3Service;
 
     @GetMapping("/image")
@@ -26,5 +26,5 @@ public class ImageApiController {
     @DeleteMapping("/image")
     public void deleteImage() {
 
-    }
+    }*/
 }

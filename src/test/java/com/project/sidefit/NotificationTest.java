@@ -1,13 +1,12 @@
 package com.project.sidefit;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.project.sidefit.api.controller.NotificationApiController;
 import com.project.sidefit.config.security.JwtProvider;
 import com.project.sidefit.domain.entity.Image;
 import com.project.sidefit.domain.entity.User;
 import com.project.sidefit.domain.enums.NotificationType;
-import com.project.sidefit.domain.repository.ImageRepository;
-import com.project.sidefit.domain.repository.UserRepository;
+//import com.project.sidefit.domain.repository.ImageRepository;
+//import com.project.sidefit.domain.repository.UserRepository;
 import com.project.sidefit.domain.service.NotificationService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -38,7 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 public class NotificationTest {
 
-    @Autowired
+    /*@Autowired
     private NotificationApiController notificationApiController;
 
     @Autowired
@@ -150,5 +149,5 @@ public class NotificationTest {
                                 fieldWithPath("[].nickname").type(JsonFieldType.STRING).description("송신자 닉네임")
                         )
                 ));
-    }
+    }*/
 }

@@ -11,7 +11,7 @@ import java.util.concurrent.Executor;
 @EnableAsync
 public class AsyncConfig implements AsyncConfigurer {
 
-    @Override
+    /*@Override
     public Executor getAsyncExecutor() {
         ThreadPoolTaskExecutor taskExecutor = new ThreadPoolTaskExecutor();
         taskExecutor.setCorePoolSize(3);
@@ -21,5 +21,5 @@ public class AsyncConfig implements AsyncConfigurer {
         taskExecutor.initialize();
 
         return taskExecutor;
-    }
+    }*/
 }

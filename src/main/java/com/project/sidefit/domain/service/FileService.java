@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class FileService {
 
-    private final FileRepository fileRepository;
+    /*private final FileRepository fileRepository;
 
     public void save(FileDto fileDto) {
         FileEntity fileEntity = new FileEntity(fileDto.getTitle(), fileDto.getUrl());
@@ -21,5 +21,5 @@ public class FileService {
 
     public List<FileEntity> getFiles() {
         return fileRepository.findAll();
-    }
+    }*/
 }

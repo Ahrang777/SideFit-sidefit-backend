@@ -11,11 +11,11 @@ import static com.project.sidefit.api.dto.NotificationDto.*;
 @RequiredArgsConstructor
 public class NotificationListener {
 
-    private final NotificationService notificationService;
+    /*private final NotificationService notificationService;
 
     @TransactionalEventListener
     @Async
     public void handleNotification(NotificationRequestDto notificationRequestDto) {
         notificationService.sendNotification(notificationRequestDto);
-    }
+    }*/
 }
